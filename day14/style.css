@@ -1,0 +1,24 @@
+.bg-color{
+color: red;
+}
+
+.success{
+    color: green;
+}
+.error{
+    color: gray;
+}
+
+.warning{
+    color: pink;
+}
+
+.div-1,.div-2{
+    color: green;
+    border: 1px solid black;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+
+
+}

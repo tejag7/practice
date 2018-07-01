@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<movies>
+     
+<movie>
+
+     <title>A History of Violence</title>
+ 
+     <year>2005</year>
+
+     <country>USA</country>
+
+     <genre>Crime</genre>
+
+     <summary>Tom Stall, a humble family man and owner of a popular neighborhood restaurant, lives a quiet but fulfilling existence in the Midwest.</summary>
+
+     <director>David Cronenberg</director>
+
+</movie>
+
+<movie>
+
+   <title>Heat</title>
+
+   <year>1995</year>
+
+   <country>USA</country>
+
+   <genre>Crime</genre>
+
+   <summary>Hunters and their prey--Neil and his professional criminal crew hunt to score big money targets (banks, vaults, armored cars) and are, in turn, hunted by Lt.</summary>
+
+   <director>Michael Mann</director>
+
+</movie>
+
+</movies>

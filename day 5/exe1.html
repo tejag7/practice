@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis in sint saepe, ullam mollitia vel cumque hic, laudantium! Maiores hic ab esse aut sunt error eius quae consectetur, eaque consequatur.</p>
+    
+    <button id= "showBtn" onclick="showBtnClicked">show</button>
+    <button id= "hideBtn" onclick="hideBtnClicked">Hide</button> 
+    <button id = "toggle" onclick="tglBtnClicked">Toggle</button>
+    
+    <script>
+        para = document.getElementById("para");
+        isParavisible = "true";
+        
+        console.log("theja");
+    function showBtnClicked(){
+        console.log("show button clicked");
+       
+      
+    }
+    
+    function hideBtnClicked(){
+          console.log("hide button clicked");
+    }
+              
+  
+    function tglBtnClicked(){
+          //console.log("hide button clicked");
+    para.style.display = isParavisible?'none':'block';  
+    isParavisible = !isParavisible;
+    }
+    
+    </script>
+</body>
+</html>

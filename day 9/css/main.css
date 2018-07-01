@@ -1,0 +1,23 @@
+.app-bgcolor{
+    background: #3b5b96;
+    height: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+   
+}
+
+.fb-color{
+    font-size: 38px !important;
+    color: white !important;
+    font-family: bold;   
+}
+
+.text-white{
+    color: white; !important;
+}
+
+.login-btn{
+   vertical-align: top;
+    margin-top: 23px;
+    
+}

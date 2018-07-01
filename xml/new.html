@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PoojaPortfolio</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+	.container{
+		background-color: black;
+		width: 90%;
+	}
+	img{
+		padding: 0px;
+	}
+	.col-md-12, .col-md-6, .col-sm-12, .col-lg-6, .col-lg-4, .col-lg-12{
+		margin: 0px;
+		padding: 0px;
+	}
+	.text{
+		padding: 15% 10% 18% 10%;
+		
+	}
+	.ball{
+		border-radius: 50%;
+		background-color: rgb(244, 66, 95);
+		color: white;
+		width: 60px;
+		height: 60px;
+		position: absolute;
+		top: 40%;
+		left: 40%;
+	}
+	.details{
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		top: 40%;
+		left: 20%;
+	}
+	.fa{
+		position: relative;
+		left: 10px;
+		top:10px;
+	}
+	.modal-content{
+		background-color: rgb(247, 147, 145);
+	}
+	i:hover{
+		background-color: red;
+	}
+	.toggle{
+		display: none;
+		box-sizing: border-box;
+		color: white;
+		text-align: right;
+	}
+	.navbar-form{
+		position: absolute;
+		top: 0%;
+		right: 0%;
+	}
+	#div1{
+		position: absolute;
+		bottom: 10%;
+		color: white;
+	}
+	@media(max-width: 1196px){
+		.toggle{
+			display: block;
+		}
+		.menu2{
+			display: none;
+		}
+
+	}
+</style>
+<body>
+<div class="container">
+	<div class="row" >
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 text" >
+			<form class="navbar-form navbar-right">
+				<div class="form-group">
+					<input type="text" class="form-group" placeholder="Search..">
+				</div>
+					<button type="submit" class="btn btn-danger">Search</i></button>
+				
+			</form>
+			<h3 style="color: white">Hi, I'Am </h3>
+			<h1 style="color: white; font-family:algerian"> Pooja Nalla </h1>
+			<h4 style="color: red">Junior Software developer</h4>
+			<div class="toggle">
+				<i class="fa fa-bars fa-2x menu" aria-hidden="true"></i>
+			</div>
+			<div id="div1">
+				<i class="fa fa-facebook-square fa-2x"></i>  
+				<i class="fa fa-linkedin-square fa-2x"></i>
+				<i class="fa fa-twitter-square fa-2x"></i>
+				<i class="fa fa-google-plus-square fa-2x"></i>
+				</ul>
+			</div>
+		</div>
+		<div class=" col-xs-12 col-sm-12 col-md-12 col-lg-6 menu2">
+			<div class="row col-lg-12">
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+					<img src="education.jpg" class="img-responsive" style="width: 100%; opacity: 0.7">
+					<div class="ball">
+						<i class="fa fa-graduation-cap fa-3x" ></i>
+						<a href="#" data-toggle="modal" data-target="#myModal1"><h3 style="color: white">Education</h3></a>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+					<img src="resume.jpg" class="img-responsive" style="width: 100%;opacity: 0.7">
+					<div class="ball">
+						<i class="fa fa-check-square-o fa-3x"></i>
+						<a href="#" data-toggle="modal" data-target="#myModal2"><h3 style="color: white">Projects</h3></a>
+					</div>
+				</div>
+			</div>	
+			<div class="row col-md-12" >
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+					<img src="project.jpg" class="img-responsive" style="width: 100%;opacity: 0.7">
+					<div class="ball">
+						<i class="fa fa-certificate fa-3x"></i>
+						  <a href="#" data-toggle="modal" data-target="#myModal3"><h3 style="color: white">Certifications</h3></a>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
+					
+					<img src="certification.jpg" class="img-responsive" style="width: 100%;opacity: 0.7">
+					<div class="ball">
+						<i class="fa fa-list-alt fa-3x"></i>
+						<a href="#" data-toggle="modal" data-target="#myModal4"><h3 style="color: white">Resume</h3></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><b>Education</b></h4>
+        </div>
+        <div class="modal-body">
+        	<h4><b>Master of Sciences</b> in Computers and Information Sciences.<br>
+        	 Southern Arkansas University, Magnolia, AR</h4>
+        	<h4><b>Bachelor of Technology</b> in Electronics and Communication Engineering.<br>
+			Jawaharlal Nehru Technological University, Telangana, India.</h4>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><b>Projects</b></h4>
+        </div>
+        <div class="modal-body">
+        	<p><b>Searching Algorithm for HP Airline Services :</b> In this project we used a search algorithm to process customer requests to fly from some origin to some destination. For back tracking and mapping the source to destination we used the concept of BFS algorithm which uses recursion to search whether HP Airlines serves the requested origin to destination. Coding is done in C++.<br> 
+			<b>Hiding Image In Video :</b> In this project, we proposed data hiding and extraction procedure for AVI (Audio Video Interleave) video embedding the secret message bits in DCT higher order coefficients. The secret information taken here is a gray scale image pixel values. The gray scale pixel values are converted to binary values and embedded those values in higher order coefficient value of DCT of AVI video frames. All experiments are done using MATLAB simulation software.<br>
+			<b>GESTURES BASED WIRELESS ROBOT GAMING:</b>In this project we developed a robot which was controlled by MEMS accelerometer. Depending on the direction of the MEMS, microcontroller receives different signals and transmits to robot section. Depending on the received data, the microcontroller controls the robot using the motor driver and motors. The wireless communication is done using the RF communication.</p>
+		</div>
+    	<div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+       </div>
+  	 </div>
+  </div>
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><b>Certifications</b></h4>
+        </div>
+        <div class="modal-body">
+        	<h4><b>Oracle Certified Associate, Java SE 7 Programmer<b></h4>
+        	<img src="oracle.png">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><b>Resume</b></h4>
+        </div>
+        <div class="modal-body">
+        	<img src="resume.png">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div class="row">
+		<div class="col-xs-12 col-sm- 12 col-md-4 col-lg-4">
+			<img src="location.jpg" class="img-responsive  " style="width: 100%;opacity: 0.5">
+			<div class="details">
+				<p>Location:</p>
+				<p>Baltimore,MD</p>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm- 12 col-md-4 col-lg-4">
+			<img src="contact480.jpg" class="img-responsive  " style="width: 100%;opacity: 0.5">
+			<div class="details">
+				<p>Phone:</p>
+				<p>+1 (333)-888-7777</p>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm- 12 col-md-4 col-lg-4">
+			<img src="email.jpg" class="img-responsive  " style="width: 100%;opacity: 0.5">
+			<div class="details">
+				<p>Email:</p>
+				 <p>poojareddy@gmail.com</p>
+			</div>
+		</div>
+	</div>
+</div>	
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu').click(function(){
+			$('.menu2').toggle();
+		})
+	})
+</script>
+</body>
+</html>

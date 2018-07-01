@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tutorial">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body ng-Controller="AppController" ng-cloak="">
+
+ <button class="create" ng-click="create()" ng-value="">Click Me</button>
+ <input type="text" ng-blur="blur()"
+                    ng-focus="focus()"
+                    ng-keyup="keyup()"
+                    ng-keydown="keydown()"
+                    ng-keypress="keypress()"
+                    ng-change="change()">
+
+
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="app.controller.js"></script>
+</body>
+</html>
